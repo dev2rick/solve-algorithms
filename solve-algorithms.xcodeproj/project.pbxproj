@@ -20,7 +20,6 @@
 
 /* Begin PBXFileReference section */
 		1D7BC10F2DC1237000C08D07 /* solve-algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "solve-algorithms"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D7BC1222DC124FB00C08D07 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -58,7 +57,6 @@
 		1D7BC1062DC1237000C08D07 = {
 			isa = PBXGroup;
 			children = (
-				1D7BC1222DC124FB00C08D07 /* .gitignore */,
 				1D7BC11E2DC123B400C08D07 /* baekjoon */,
 				1D7BC1102DC1237000C08D07 /* Products */,
 			);
