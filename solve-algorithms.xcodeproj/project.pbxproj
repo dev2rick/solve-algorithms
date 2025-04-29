@@ -23,9 +23,22 @@
 		1D7BC1222DC124FB00C08D07 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1D7BC1272DC1258800C08D07 /* Exceptions for "baekjoon" folder in "solve-algorithms" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"12851-숨바꼭질 2/main.cpp",
+			);
+			target = 1D7BC10E2DC1237000C08D07 /* solve-algorithms */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		1D7BC11E2DC123B400C08D07 /* baekjoon */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1D7BC1272DC1258800C08D07 /* Exceptions for "baekjoon" folder in "solve-algorithms" target */,
+			);
 			path = baekjoon;
 			sourceTree = "<group>";
 		};
