@@ -23,9 +23,17 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		1D421CD22DC317ED00784D72 /* Exceptions for "playground" folder in "solve-algorithms" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				main.cpp,
+			);
+			target = 1D7BC10E2DC1237000C08D07 /* solve-algorithms */;
+		};
 		1D7BC1272DC1258800C08D07 /* Exceptions for "baekjoon" folder in "solve-algorithms" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				"1237-정ㅋ벅ㅋ/main.cpp",
 				"12851-숨바꼭질 2/main.cpp",
 			);
 			target = 1D7BC10E2DC1237000C08D07 /* solve-algorithms */;
@@ -33,6 +41,14 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		1D421CCA2DC18EA100784D72 /* playground */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				1D421CD22DC317ED00784D72 /* Exceptions for "playground" folder in "solve-algorithms" target */,
+			);
+			path = playground;
+			sourceTree = "<group>";
+		};
 		1D7BC11E2DC123B400C08D07 /* baekjoon */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -57,6 +73,7 @@
 		1D7BC1062DC1237000C08D07 = {
 			isa = PBXGroup;
 			children = (
+				1D421CCA2DC18EA100784D72 /* playground */,
 				1D7BC11E2DC123B400C08D07 /* baekjoon */,
 				1D7BC1102DC1237000C08D07 /* Products */,
 			);
@@ -86,6 +103,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				1D421CCA2DC18EA100784D72 /* playground */,
 				1D7BC11E2DC123B400C08D07 /* baekjoon */,
 			);
 			name = "solve-algorithms";
