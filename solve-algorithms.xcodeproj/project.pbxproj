@@ -20,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		1D7BC10F2DC1237000C08D07 /* solve-algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "solve-algorithms"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DCE18FD2DC658890013461D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -57,6 +58,11 @@
 			path = baekjoon;
 			sourceTree = "<group>";
 		};
+		1DCE18FF2DC658C00013461D /* header */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = header;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +79,8 @@
 		1D7BC1062DC1237000C08D07 = {
 			isa = PBXGroup;
 			children = (
+				1DCE18FD2DC658890013461D /* README.md */,
+				1DCE18FF2DC658C00013461D /* header */,
 				1D421CCA2DC18EA100784D72 /* playground */,
 				1D7BC11E2DC123B400C08D07 /* baekjoon */,
 				1D7BC1102DC1237000C08D07 /* Products */,
@@ -105,6 +113,7 @@
 			fileSystemSynchronizedGroups = (
 				1D421CCA2DC18EA100784D72 /* playground */,
 				1D7BC11E2DC123B400C08D07 /* baekjoon */,
+				1DCE18FF2DC658C00013461D /* header */,
 			);
 			name = "solve-algorithms";
 			packageProductDependencies = (
