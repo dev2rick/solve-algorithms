@@ -4,33 +4,33 @@ using namespace std;
 
 int n, res;
 vector<pair<int, int>> v;
-int visited[10005];
-bool comp(pair<int, int> a, pair<int, int> b) {
-    if(a.first == b.first) {
-        return a.second > b.second;
-    }
-    return a.first < b.first;
-}
+priority_queue<int, vector<int>, greater<int>> pq;
 
 int main() {
 
-
     cin >> n;
-    for (int i =0; i<n; i++) {
-        int a,b;
-        cin >> a >> b;
-        v.push_back({b, a});
+    for(int i=0; i<n; i++) {
+        int p, d;
+        cin >> p >> d;
+        v.push_back({d, p});
     }
 
-    sort(v.begin(), v.end(), comp);
+    sort(v.begin(), v.end());
 
-    for (int i =0; i<n; i++) {
-        int idx = v[i].first;
-        if(!visited[idx]) {
-            visited[idx] = 1;
-            res += v[i].second;
+    for(int i=0; i<n; i++) {
+        int d,p;
+        tie(d, p) = v[i];
+        pq.push(p);
+        if(pq.size() > d) {
+            pq.pop();
         }
     }
 
-    cout << res << endl;
+    while(pq.size()) {
+        res += pq.top();
+        pq.pop();
+    }
+
+    cout << res <<'\n';
+    return 0;
 }
