@@ -35,6 +35,8 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				"1237-정ㅋ벅ㅋ/main.cpp",
+				"2109-순회강연/main.cpp",
+				"9935-문자열 폭발/main.cpp",
 				"12851-숨바꼭질 2/main.cpp",
 				"19942-다이어트/main.cpp",
 				"단계별/입출력과 사칙연산/1000-A+B/main.cpp",
