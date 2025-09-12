@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int k;
+    cin >> k;
+    
+    for(int i=1; i<=k; i++) {
+        for(int j=0; j<i; j++) {
+            cout << "*";
+        }
+        cout << "\n";
+    }
+        
+    return 0;
+}
