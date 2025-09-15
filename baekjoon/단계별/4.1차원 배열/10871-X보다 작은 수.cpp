@@ -2,18 +2,15 @@
 
 using namespace std;
 
-int v[10004], n, x;
+int a, n, x;
 
 int main() {
     cin >> n >> x;
     
     for(int i=0; i<n; i++) {
-        cin >> v[i];
-    }
-    
-    for(int i=0; i<n; i++) {
-        if(v[i] < x) {
-            cout << v[i] << " ";
+        cin >> a;
+        if(a < x) {
+            cout << a << " ";
         }
     }
     
