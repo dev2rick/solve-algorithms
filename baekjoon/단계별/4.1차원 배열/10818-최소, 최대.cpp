@@ -2,9 +2,7 @@
 
 using namespace std;
 
-int n, p;
-int mx = -1000001;
-int mn = 1000001;
+int mx, mn, n, p;
 
 int main() {
     
@@ -12,6 +10,11 @@ int main() {
     
     for(int i=0; i<n; i++) {
         cin >> p;
+        if(i==0) {
+            mx = p;
+            mn = p;
+        }
+        
         if(p > mx) {
             mx = p;
         } else if (p < mn) {
