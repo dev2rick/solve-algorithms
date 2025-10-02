@@ -1,8 +1,10 @@
-//
-//  2743-단어 길이 재기.cpp
-//  solve-algorithms
-//
-//  Created by rick on 10/2/25.
-//
+#include<bits/stdc++.h>
 
-#include <stdio.h>
+using namespace std;
+
+int main() {
+    string s;
+    cin >> s;
+    cout << s.length() << '\n';
+    return 0;
+}
