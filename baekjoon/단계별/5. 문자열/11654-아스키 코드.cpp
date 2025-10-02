@@ -1,8 +1,10 @@
-//
-//  11654-아스키 코드.cpp
-//  solve-algorithms
-//
-//  Created by rick on 10/2/25.
-//
+#include<bits/stdc++.h>
 
-#include <stdio.h>
+using namespace std;
+
+int main() {
+    char c;
+    cin >> c;
+    cout << (int) c << '\n';
+    return 0;
+}
