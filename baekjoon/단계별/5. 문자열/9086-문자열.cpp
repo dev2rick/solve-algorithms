@@ -1,8 +1,20 @@
-//
-//  9086-문자열.cpp
-//  solve-algorithms
-//
-//  Created by rick on 10/2/25.
-//
+#include<bits/stdc++.h>
 
-#include <stdio.h>
+using namespace std;
+
+
+
+int main() {
+    int t;
+    string s;
+    
+    cin >> t;
+    
+    while(t) {
+        t--;
+        cin >> s;
+        cout << *s.begin() << *(s.end()-1) << endl;
+    }
+    
+    return 0;
+}
